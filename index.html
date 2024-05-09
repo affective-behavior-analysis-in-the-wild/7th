@@ -577,9 +577,8 @@ The performance measure (P) is the sum of: the mean Concordance Correlation Coef
  
 <h3>Baseline Results</h3> 
 
-<p>The baseline network is a pre-trained on ImageNet ResNet-50 and its performance on the validation set is: </p>
-<p>CCC<sub>valence</sub> = 0.24, &nbsp &nbsp  CCC<sub>arousal</sub> = 0.20 </p>
-<p>P = 0.22 </p>
+<p>The baseline network is a pre-trained VGGFACE (with fixed convolutional weights and with <a href="https://openaccess.thecvf.com/content/CVPR2022W/ABAW/papers/Psaroudakis_MixAugment__Mixup_Augmentation_Methods_for_Facial_Expression_Recognition_CVPRW_2022_paper.pdf">MixAugment</a> data augmentation technique) and its performance on the validation set is:</p>
+<p>P = 0.30 </p>
 
 
 
@@ -587,20 +586,6 @@ The performance measure (P) is the sum of: the mean Concordance Correlation Coef
 
       </div>
     </section><!-- End Features Section -->
-
-
-
- 
-<h3>Performance Assessment</h3> 
-<p>The performance measure (P) is the average F1 Score across all 8 categories: &nbsp
-&sum; F1/8 </p>
-
- 
-<h3>Performance Assessment</h3> 
-<p>The performance measure (P) is the average F1 Score across all 12 categories: &nbsp &sum; F1/12 </p>
-
-
-
 
 
      
